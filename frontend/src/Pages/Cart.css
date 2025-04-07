@@ -1,0 +1,141 @@
+/* General container */
+.cart-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+/* Header */
+.cart-container h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Cart Items Container */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Each Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+/* Product Image */
+.cart-item-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* Product Details */
+.cart-item-details {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.cart-item-details h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.cart-item-details p {
+  margin-top: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Remove Button */
+.remove-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.remove-btn:hover {
+  background: #e60000;
+}
+
+/* Cart Summary Section */
+.cart-summary {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Checkout Button */
+.checkout-btn {
+  margin-top: 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background: #1e7e34;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+  padding: 40px;
+  font-size: 22px;
+  color: #666;
+}
+
+/* Go to Menu Button */
+.go-shopping {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.go-shopping:hover {
+  background: #0056b3;
+}
